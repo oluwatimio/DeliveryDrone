@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "QGrid",
+        "repositoryURL": "https://github.com/Q-Mobile/QGrid",
+        "state": {
+          "branch": null,
+          "revision": "40607aec336a8097c94bcadb81762592d89073ac",
+          "version": "0.1.3"
+        }
+      },
+      {
+        "package": "swiftui-extensions",
+        "repositoryURL": "https://github.com/swift-extensions/swiftui-extensions",
+        "state": {
+          "branch": null,
+          "revision": "9eb16bf15aef8b2719c56a7530d61e896f351a94",
+          "version": "0.9.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26115DDB23CFAF08001E3402 /* ProductOrderPending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26115DDA23CFAF07001E3402 /* ProductOrderPending.swift */; };
+		2638ED7123C7C50800E3E10E /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2638ED7023C7C50800E3E10E /* URLImage */; };
+		2638ED7623C7E7E900E3E10E /* GridStack in Frameworks */ = {isa = PBXBuildFile; productRef = 2638ED7523C7E7E900E3E10E /* GridStack */; };
+		26DA9AF823DABA13002E1618 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DA9AF723DABA13002E1618 /* CartItem.swift */; };
+		26DFB67F23C04A6B0020DF12 /* CartProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB67E23C04A6B0020DF12 /* CartProduct.swift */; };
+		26DFB68223C068F40020DF12 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB68123C068F40020DF12 /* CategoryView.swift */; };
+		26DFB68423C069150020DF12 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB68323C069150020DF12 /* ProductCard.swift */; };
+		26DFB68923C0F7F30020DF12 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB68823C0F7F30020DF12 /* Product.swift */; };
+		26DFB68F23C114090020DF12 /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 26DFB68E23C114090020DF12 /* QGrid */; };
+		26DFB69123C130AF0020DF12 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB69023C130AF0020DF12 /* Category.swift */; };
+		26DFB69423C140EA0020DF12 /* Grid in Frameworks */ = {isa = PBXBuildFile; productRef = 26DFB69323C140EA0020DF12 /* Grid */; };
+		26DFB69823C1520D0020DF12 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB69723C1520C0020DF12 /* HostingController.swift */; };
+		26DFB69A23C1534B0020DF12 /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB69923C1534B0020DF12 /* NavigationConfigurator.swift */; };
+		26DFB69C23C175EC0020DF12 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB69B23C175EC0020DF12 /* AuthView.swift */; };
+		26DFB69E23C40B070020DF12 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB69D23C40B070020DF12 /* SplashScreen.swift */; };
+		26DFB6A023C414790020DF12 /* FirebaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB69F23C414790020DF12 /* FirebaseUtils.swift */; };
+		26DFB6A223C415BD0020DF12 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB6A123C415BD0020DF12 /* Session.swift */; };
+		26DFB6A623C43BD00020DF12 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB6A523C43BD00020DF12 /* MainView.swift */; };
+		26E38AAC23BFCECA00756272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38AAB23BFCECA00756272 /* AppDelegate.swift */; };
+		26E38AAE23BFCECA00756272 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38AAD23BFCECA00756272 /* SceneDelegate.swift */; };
+		26E38AB023BFCECA00756272 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38AAF23BFCECA00756272 /* ContentView.swift */; };
+		26E38AB223BFCECC00756272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E38AB123BFCECC00756272 /* Assets.xcassets */; };
+		26E38AB523BFCECC00756272 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E38AB423BFCECC00756272 /* Preview Assets.xcassets */; };
+		26E38AB823BFCECC00756272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E38AB623BFCECC00756272 /* LaunchScreen.storyboard */; };
+		26E38AC323BFCECC00756272 /* Delivery_Drone_Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38AC223BFCECC00756272 /* Delivery_Drone_Swift_UITests.swift */; };
+		26E38ACE23BFCECC00756272 /* Delivery_Drone_Swift_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38ACD23BFCECC00756272 /* Delivery_Drone_Swift_UIUITests.swift */; };
+		26E38ADC23BFCF0600756272 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38ADB23BFCF0600756272 /* HomeView.swift */; };
+		26E38ADE23BFD5C200756272 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38ADD23BFD5C200756272 /* CardView.swift */; };
+		26E38AE023BFECD100756272 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38ADF23BFECD100756272 /* CartView.swift */; };
+		26E38AE323BFF3FC00756272 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38AE223BFF3FC00756272 /* ProductDetail.swift */; };
+		26E38AE523BFFD6400756272 /* CardFullImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38AE423BFFD6400756272 /* CardFullImage.swift */; };
+		26E644BB23C54815000ADA2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26E644BA23C54815000ADA2B /* GoogleService-Info.plist */; };
+		2C598F49FF40CC8FD1616115 /* Pods_Delivery_Drone_Swift_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5605D324DD7A87FA193374 /* Pods_Delivery_Drone_Swift_UITests.framework */; };
+		414E71BBDCDDD302712258DA /* Pods_Delivery_Drone_Swift_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB267B0EEC920337A6F01FA /* Pods_Delivery_Drone_Swift_UI.framework */; };
+		D640B4DB3D9613B830F8AEF3 /* Pods_Delivery_Drone_Swift_UIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0444CC52BFA84BFBAC3559 /* Pods_Delivery_Drone_Swift_UIUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26E38ABF23BFCECC00756272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26E38AA023BFCECA00756272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26E38AA723BFCECA00756272;
+			remoteInfo = "Delivery Drone Swift UI";
+		};
+		26E38ACA23BFCECC00756272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26E38AA023BFCECA00756272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26E38AA723BFCECA00756272;
+			remoteInfo = "Delivery Drone Swift UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E89D139C8029868BF819623 /* Pods-Delivery Drone Swift UIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UIUITests/Pods-Delivery Drone Swift UIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A5605D324DD7A87FA193374 /* Pods_Delivery_Drone_Swift_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delivery_Drone_Swift_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26115DDA23CFAF07001E3402 /* ProductOrderPending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOrderPending.swift; sourceTree = "<group>"; };
+		26DA9AF723DABA13002E1618 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		26DFB67E23C04A6B0020DF12 /* CartProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProduct.swift; sourceTree = "<group>"; };
+		26DFB68123C068F40020DF12 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		26DFB68323C069150020DF12 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		26DFB68823C0F7F30020DF12 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		26DFB69023C130AF0020DF12 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		26DFB69723C1520C0020DF12 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		26DFB69923C1534B0020DF12 /* NavigationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
+		26DFB69B23C175EC0020DF12 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		26DFB69D23C40B070020DF12 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		26DFB69F23C414790020DF12 /* FirebaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtils.swift; sourceTree = "<group>"; };
+		26DFB6A123C415BD0020DF12 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		26DFB6A523C43BD00020DF12 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		26E38AA823BFCECA00756272 /* Delivery Drone Swift UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delivery Drone Swift UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E38AAB23BFCECA00756272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26E38AAD23BFCECA00756272 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26E38AAF23BFCECA00756272 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26E38AB123BFCECC00756272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26E38AB423BFCECC00756272 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26E38AB723BFCECC00756272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26E38AB923BFCECC00756272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E38ABE23BFCECC00756272 /* Delivery Drone Swift UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delivery Drone Swift UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E38AC223BFCECC00756272 /* Delivery_Drone_Swift_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery_Drone_Swift_UITests.swift; sourceTree = "<group>"; };
+		26E38AC423BFCECC00756272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E38AC923BFCECC00756272 /* Delivery Drone Swift UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Delivery Drone Swift UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E38ACD23BFCECC00756272 /* Delivery_Drone_Swift_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delivery_Drone_Swift_UIUITests.swift; sourceTree = "<group>"; };
+		26E38ACF23BFCECC00756272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E38ADB23BFCF0600756272 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		26E38ADD23BFD5C200756272 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		26E38ADF23BFECD100756272 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		26E38AE223BFF3FC00756272 /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		26E38AE423BFFD6400756272 /* CardFullImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFullImage.swift; sourceTree = "<group>"; };
+		26E644BA23C54815000ADA2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A0444CC52BFA84BFBAC3559 /* Pods_Delivery_Drone_Swift_UIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delivery_Drone_Swift_UIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EC1C35EB61C22E81EE2A0F /* Pods-Delivery Drone Swift UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UI.release.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UI/Pods-Delivery Drone Swift UI.release.xcconfig"; sourceTree = "<group>"; };
+		615DF9E9D138FB8C422464C7 /* Pods-Delivery Drone Swift UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UITests.debug.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UITests/Pods-Delivery Drone Swift UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7043517C51C4E41FE2F0B673 /* Pods-Delivery Drone Swift UIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UIUITests.release.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UIUITests/Pods-Delivery Drone Swift UIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9996B582B6AE95C97FF6F0EC /* Pods-Delivery Drone Swift UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UI.debug.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UI/Pods-Delivery Drone Swift UI.debug.xcconfig"; sourceTree = "<group>"; };
+		E0560B41A3E3817F4C9EAF9C /* Pods-Delivery Drone Swift UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UITests.release.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UITests/Pods-Delivery Drone Swift UITests.release.xcconfig"; sourceTree = "<group>"; };
+		EAB267B0EEC920337A6F01FA /* Pods_Delivery_Drone_Swift_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delivery_Drone_Swift_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E38AA523BFCECA00756272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DFB69423C140EA0020DF12 /* Grid in Frameworks */,
+				26DFB68F23C114090020DF12 /* QGrid in Frameworks */,
+				2638ED7123C7C50800E3E10E /* URLImage in Frameworks */,
+				414E71BBDCDDD302712258DA /* Pods_Delivery_Drone_Swift_UI.framework in Frameworks */,
+				2638ED7623C7E7E900E3E10E /* GridStack in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E38ABB23BFCECC00756272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C598F49FF40CC8FD1616115 /* Pods_Delivery_Drone_Swift_UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E38AC623BFCECC00756272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D640B4DB3D9613B830F8AEF3 /* Pods_Delivery_Drone_Swift_UIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26DFB67B23C03E3A0020DF12 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				26DFB69923C1534B0020DF12 /* NavigationConfigurator.swift */,
+				26DFB69F23C414790020DF12 /* FirebaseUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		26DFB68023C0683B0020DF12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26E38AE223BFF3FC00756272 /* ProductDetail.swift */,
+				26E38AAF23BFCECA00756272 /* ContentView.swift */,
+				26E38ADB23BFCF0600756272 /* HomeView.swift */,
+				26E38ADF23BFECD100756272 /* CartView.swift */,
+				26DFB68123C068F40020DF12 /* CategoryView.swift */,
+				26DFB69B23C175EC0020DF12 /* AuthView.swift */,
+				26DFB69D23C40B070020DF12 /* SplashScreen.swift */,
+				26DFB6A523C43BD00020DF12 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26DFB68723C0F7E30020DF12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26DFB69023C130AF0020DF12 /* Category.swift */,
+				26DFB68823C0F7F30020DF12 /* Product.swift */,
+				26DFB6A123C415BD0020DF12 /* Session.swift */,
+				26115DDA23CFAF07001E3402 /* ProductOrderPending.swift */,
+				26DA9AF723DABA13002E1618 /* CartItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		26E38A9F23BFCECA00756272 = {
+			isa = PBXGroup;
+			children = (
+				26E38AAA23BFCECA00756272 /* Delivery Drone Swift UI */,
+				26E38AC123BFCECC00756272 /* Delivery Drone Swift UITests */,
+				26E38ACC23BFCECC00756272 /* Delivery Drone Swift UIUITests */,
+				26E38AA923BFCECA00756272 /* Products */,
+				6F7B5EB8B3AB886F981C1A3E /* Pods */,
+				92B9D3A44544BC3C82E19E4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26E38AA923BFCECA00756272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26E38AA823BFCECA00756272 /* Delivery Drone Swift UI.app */,
+				26E38ABE23BFCECC00756272 /* Delivery Drone Swift UITests.xctest */,
+				26E38AC923BFCECC00756272 /* Delivery Drone Swift UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26E38AAA23BFCECA00756272 /* Delivery Drone Swift UI */ = {
+			isa = PBXGroup;
+			children = (
+				26E644BA23C54815000ADA2B /* GoogleService-Info.plist */,
+				26DFB68723C0F7E30020DF12 /* Models */,
+				26DFB68023C0683B0020DF12 /* Views */,
+				26DFB67B23C03E3A0020DF12 /* Utils */,
+				26E38AE123BFF3E600756272 /* Components */,
+				26E38AAB23BFCECA00756272 /* AppDelegate.swift */,
+				26E38AAD23BFCECA00756272 /* SceneDelegate.swift */,
+				26E38AB123BFCECC00756272 /* Assets.xcassets */,
+				26E38AB623BFCECC00756272 /* LaunchScreen.storyboard */,
+				26E38AB923BFCECC00756272 /* Info.plist */,
+				26E38AB323BFCECC00756272 /* Preview Content */,
+				26DFB69723C1520C0020DF12 /* HostingController.swift */,
+			);
+			path = "Delivery Drone Swift UI";
+			sourceTree = "<group>";
+		};
+		26E38AB323BFCECC00756272 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26E38AB423BFCECC00756272 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26E38AC123BFCECC00756272 /* Delivery Drone Swift UITests */ = {
+			isa = PBXGroup;
+			children = (
+				26E38AC223BFCECC00756272 /* Delivery_Drone_Swift_UITests.swift */,
+				26E38AC423BFCECC00756272 /* Info.plist */,
+			);
+			path = "Delivery Drone Swift UITests";
+			sourceTree = "<group>";
+		};
+		26E38ACC23BFCECC00756272 /* Delivery Drone Swift UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26E38ACD23BFCECC00756272 /* Delivery_Drone_Swift_UIUITests.swift */,
+				26E38ACF23BFCECC00756272 /* Info.plist */,
+			);
+			path = "Delivery Drone Swift UIUITests";
+			sourceTree = "<group>";
+		};
+		26E38AE123BFF3E600756272 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				26DFB67E23C04A6B0020DF12 /* CartProduct.swift */,
+				26E38ADD23BFD5C200756272 /* CardView.swift */,
+				26E38AE423BFFD6400756272 /* CardFullImage.swift */,
+				26DFB68323C069150020DF12 /* ProductCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6F7B5EB8B3AB886F981C1A3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9996B582B6AE95C97FF6F0EC /* Pods-Delivery Drone Swift UI.debug.xcconfig */,
+				38EC1C35EB61C22E81EE2A0F /* Pods-Delivery Drone Swift UI.release.xcconfig */,
+				615DF9E9D138FB8C422464C7 /* Pods-Delivery Drone Swift UITests.debug.xcconfig */,
+				E0560B41A3E3817F4C9EAF9C /* Pods-Delivery Drone Swift UITests.release.xcconfig */,
+				0E89D139C8029868BF819623 /* Pods-Delivery Drone Swift UIUITests.debug.xcconfig */,
+				7043517C51C4E41FE2F0B673 /* Pods-Delivery Drone Swift UIUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92B9D3A44544BC3C82E19E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB267B0EEC920337A6F01FA /* Pods_Delivery_Drone_Swift_UI.framework */,
+				1A5605D324DD7A87FA193374 /* Pods_Delivery_Drone_Swift_UITests.framework */,
+				2A0444CC52BFA84BFBAC3559 /* Pods_Delivery_Drone_Swift_UIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26E38AA723BFCECA00756272 /* Delivery Drone Swift UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E38AD223BFCECC00756272 /* Build configuration list for PBXNativeTarget "Delivery Drone Swift UI" */;
+			buildPhases = (
+				07985A9F4BA66E7F1EECFC0C /* [CP] Check Pods Manifest.lock */,
+				26E38AA423BFCECA00756272 /* Sources */,
+				26E38AA523BFCECA00756272 /* Frameworks */,
+				26E38AA623BFCECA00756272 /* Resources */,
+				F024F7D5A78E770696A254F3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Delivery Drone Swift UI";
+			packageProductDependencies = (
+				26DFB68E23C114090020DF12 /* QGrid */,
+				26DFB69323C140EA0020DF12 /* Grid */,
+				2638ED7023C7C50800E3E10E /* URLImage */,
+				2638ED7523C7E7E900E3E10E /* GridStack */,
+			);
+			productName = "Delivery Drone Swift UI";
+			productReference = 26E38AA823BFCECA00756272 /* Delivery Drone Swift UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26E38ABD23BFCECC00756272 /* Delivery Drone Swift UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E38AD523BFCECC00756272 /* Build configuration list for PBXNativeTarget "Delivery Drone Swift UITests" */;
+			buildPhases = (
+				217B9BEFEAE29A7FA7062670 /* [CP] Check Pods Manifest.lock */,
+				26E38ABA23BFCECC00756272 /* Sources */,
+				26E38ABB23BFCECC00756272 /* Frameworks */,
+				26E38ABC23BFCECC00756272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26E38AC023BFCECC00756272 /* PBXTargetDependency */,
+			);
+			name = "Delivery Drone Swift UITests";
+			productName = "Delivery Drone Swift UITests";
+			productReference = 26E38ABE23BFCECC00756272 /* Delivery Drone Swift UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26E38AC823BFCECC00756272 /* Delivery Drone Swift UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E38AD823BFCECC00756272 /* Build configuration list for PBXNativeTarget "Delivery Drone Swift UIUITests" */;
+			buildPhases = (
+				112B2BD7DFE1A7B1631245F8 /* [CP] Check Pods Manifest.lock */,
+				26E38AC523BFCECC00756272 /* Sources */,
+				26E38AC623BFCECC00756272 /* Frameworks */,
+				26E38AC723BFCECC00756272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26E38ACB23BFCECC00756272 /* PBXTargetDependency */,
+			);
+			name = "Delivery Drone Swift UIUITests";
+			productName = "Delivery Drone Swift UIUITests";
+			productReference = 26E38AC923BFCECC00756272 /* Delivery Drone Swift UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26E38AA023BFCECA00756272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = CEG4912;
+				TargetAttributes = {
+					26E38AA723BFCECA00756272 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					26E38ABD23BFCECC00756272 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 26E38AA723BFCECA00756272;
+					};
+					26E38AC823BFCECC00756272 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 26E38AA723BFCECA00756272;
+					};
+				};
+			};
+			buildConfigurationList = 26E38AA323BFCECA00756272 /* Build configuration list for PBXProject "Delivery Drone Swift UI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26E38A9F23BFCECA00756272;
+			packageReferences = (
+				26DFB68D23C114090020DF12 /* XCRemoteSwiftPackageReference "QGrid" */,
+				26DFB69223C140EA0020DF12 /* XCRemoteSwiftPackageReference "swiftui-extensions" */,
+				2638ED6F23C7C50800E3E10E /* XCRemoteSwiftPackageReference "url-image" */,
+				2638ED7423C7E7E900E3E10E /* XCRemoteSwiftPackageReference "GridStack" */,
+			);
+			productRefGroup = 26E38AA923BFCECA00756272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26E38AA723BFCECA00756272 /* Delivery Drone Swift UI */,
+				26E38ABD23BFCECC00756272 /* Delivery Drone Swift UITests */,
+				26E38AC823BFCECC00756272 /* Delivery Drone Swift UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26E38AA623BFCECA00756272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E38AB823BFCECC00756272 /* LaunchScreen.storyboard in Resources */,
+				26E644BB23C54815000ADA2B /* GoogleService-Info.plist in Resources */,
+				26E38AB523BFCECC00756272 /* Preview Assets.xcassets in Resources */,
+				26E38AB223BFCECC00756272 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E38ABC23BFCECC00756272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E38AC723BFCECC00756272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07985A9F4BA66E7F1EECFC0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delivery Drone Swift UI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		112B2BD7DFE1A7B1631245F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delivery Drone Swift UIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		217B9BEFEAE29A7FA7062670 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delivery Drone Swift UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F024F7D5A78E770696A254F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delivery Drone Swift UI/Pods-Delivery Drone Swift UI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delivery Drone Swift UI/Pods-Delivery Drone Swift UI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delivery Drone Swift UI/Pods-Delivery Drone Swift UI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26E38AA423BFCECA00756272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DFB6A023C414790020DF12 /* FirebaseUtils.swift in Sources */,
+				26E38AE023BFECD100756272 /* CartView.swift in Sources */,
+				26DA9AF823DABA13002E1618 /* CartItem.swift in Sources */,
+				26E38AAC23BFCECA00756272 /* AppDelegate.swift in Sources */,
+				26E38ADC23BFCF0600756272 /* HomeView.swift in Sources */,
+				26DFB67F23C04A6B0020DF12 /* CartProduct.swift in Sources */,
+				26DFB69823C1520D0020DF12 /* HostingController.swift in Sources */,
+				26DFB68223C068F40020DF12 /* CategoryView.swift in Sources */,
+				26DFB69C23C175EC0020DF12 /* AuthView.swift in Sources */,
+				26E38AE323BFF3FC00756272 /* ProductDetail.swift in Sources */,
+				26115DDB23CFAF08001E3402 /* ProductOrderPending.swift in Sources */,
+				26E38AAE23BFCECA00756272 /* SceneDelegate.swift in Sources */,
+				26DFB69E23C40B070020DF12 /* SplashScreen.swift in Sources */,
+				26DFB6A223C415BD0020DF12 /* Session.swift in Sources */,
+				26E38AB023BFCECA00756272 /* ContentView.swift in Sources */,
+				26DFB6A623C43BD00020DF12 /* MainView.swift in Sources */,
+				26E38AE523BFFD6400756272 /* CardFullImage.swift in Sources */,
+				26E38ADE23BFD5C200756272 /* CardView.swift in Sources */,
+				26DFB68423C069150020DF12 /* ProductCard.swift in Sources */,
+				26DFB68923C0F7F30020DF12 /* Product.swift in Sources */,
+				26DFB69A23C1534B0020DF12 /* NavigationConfigurator.swift in Sources */,
+				26DFB69123C130AF0020DF12 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E38ABA23BFCECC00756272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E38AC323BFCECC00756272 /* Delivery_Drone_Swift_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E38AC523BFCECC00756272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E38ACE23BFCECC00756272 /* Delivery_Drone_Swift_UIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26E38AC023BFCECC00756272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26E38AA723BFCECA00756272 /* Delivery Drone Swift UI */;
+			targetProxy = 26E38ABF23BFCECC00756272 /* PBXContainerItemProxy */;
+		};
+		26E38ACB23BFCECC00756272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26E38AA723BFCECA00756272 /* Delivery Drone Swift UI */;
+			targetProxy = 26E38ACA23BFCECC00756272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26E38AB623BFCECC00756272 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E38AB723BFCECC00756272 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26E38AD023BFCECC00756272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26E38AD123BFCECC00756272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26E38AD323BFCECC00756272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9996B582B6AE95C97FF6F0EC /* Pods-Delivery Drone Swift UI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Delivery Drone Swift UI/Preview Content\"";
+				DEVELOPMENT_TEAM = 39VF3HYJT6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Delivery Drone Swift UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deliverdrone.Delivery-Drone-Swift-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26E38AD423BFCECC00756272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EC1C35EB61C22E81EE2A0F /* Pods-Delivery Drone Swift UI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Delivery Drone Swift UI/Preview Content\"";
+				DEVELOPMENT_TEAM = 39VF3HYJT6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Delivery Drone Swift UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deliverdrone.Delivery-Drone-Swift-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26E38AD623BFCECC00756272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615DF9E9D138FB8C422464C7 /* Pods-Delivery Drone Swift UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39VF3HYJT6;
+				INFOPLIST_FILE = "Delivery Drone Swift UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deliverdrone.Delivery-Drone-Swift-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delivery Drone Swift UI.app/Delivery Drone Swift UI";
+			};
+			name = Debug;
+		};
+		26E38AD723BFCECC00756272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0560B41A3E3817F4C9EAF9C /* Pods-Delivery Drone Swift UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39VF3HYJT6;
+				INFOPLIST_FILE = "Delivery Drone Swift UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deliverdrone.Delivery-Drone-Swift-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delivery Drone Swift UI.app/Delivery Drone Swift UI";
+			};
+			name = Release;
+		};
+		26E38AD923BFCECC00756272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E89D139C8029868BF819623 /* Pods-Delivery Drone Swift UIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39VF3HYJT6;
+				INFOPLIST_FILE = "Delivery Drone Swift UIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deliverdrone.Delivery-Drone-Swift-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Delivery Drone Swift UI";
+			};
+			name = Debug;
+		};
+		26E38ADA23BFCECC00756272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7043517C51C4E41FE2F0B673 /* Pods-Delivery Drone Swift UIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 39VF3HYJT6;
+				INFOPLIST_FILE = "Delivery Drone Swift UIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "deliverdrone.Delivery-Drone-Swift-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Delivery Drone Swift UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E38AA323BFCECA00756272 /* Build configuration list for PBXProject "Delivery Drone Swift UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E38AD023BFCECC00756272 /* Debug */,
+				26E38AD123BFCECC00756272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E38AD223BFCECC00756272 /* Build configuration list for PBXNativeTarget "Delivery Drone Swift UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E38AD323BFCECC00756272 /* Debug */,
+				26E38AD423BFCECC00756272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E38AD523BFCECC00756272 /* Build configuration list for PBXNativeTarget "Delivery Drone Swift UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E38AD623BFCECC00756272 /* Debug */,
+				26E38AD723BFCECC00756272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E38AD823BFCECC00756272 /* Build configuration list for PBXNativeTarget "Delivery Drone Swift UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E38AD923BFCECC00756272 /* Debug */,
+				26E38ADA23BFCECC00756272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2638ED6F23C7C50800E3E10E /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.9;
+			};
+		};
+		2638ED7423C7E7E900E3E10E /* XCRemoteSwiftPackageReference "GridStack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pietropizzi/GridStack";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		26DFB68D23C114090020DF12 /* XCRemoteSwiftPackageReference "QGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Q-Mobile/QGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+		26DFB69223C140EA0020DF12 /* XCRemoteSwiftPackageReference "swiftui-extensions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swift-extensions/swiftui-extensions";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2638ED7023C7C50800E3E10E /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2638ED6F23C7C50800E3E10E /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		2638ED7523C7E7E900E3E10E /* GridStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2638ED7423C7E7E900E3E10E /* XCRemoteSwiftPackageReference "GridStack" */;
+			productName = GridStack;
+		};
+		26DFB68E23C114090020DF12 /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26DFB68D23C114090020DF12 /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
+		26DFB69323C140EA0020DF12 /* Grid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 26DFB69223C140EA0020DF12 /* XCRemoteSwiftPackageReference "swiftui-extensions" */;
+			productName = Grid;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 26E38AA023BFCECA00756272 /* Project object */;
+}
