@@ -1,0 +1,35 @@
+//How to run camera on pi
+I added print statements to see if the camera actually properly works on the pi 
+Just take them out if it works on the pi!
+
+setting up the pi:
+
+sudo apt-get update -y && sudo apt-get upgrade -y
+
+install webcam:
+
+sudo apt-get install fswebcam
+
+Check if connected:
+ls /dev/ | grep video
+
+sudo fswebcam image.jpg
+
+check if image was taken:
+ls | grep image
+
+Install zbarlight:
+
+sudo apt-get install libzbar0 libzbar-dev
+sudo pip install zbarlight
+
+**Create a folder named qr_codes outside the python script file
+
+Run command:
+
+
+fswebcam -q image_name.ext
+
+run code:
+
+sudo python QRscanner.py 0
