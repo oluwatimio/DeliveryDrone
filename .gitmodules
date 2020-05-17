@@ -1,0 +1,3 @@
+[submodule "Delivery Drone Swift UI/tools/tools"]
+	path = Delivery Drone Swift UI/tools/tools
+	url = https://github.com/trojanfoe/xcodedevtools

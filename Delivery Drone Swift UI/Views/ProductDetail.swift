@@ -60,13 +60,13 @@ struct ProductDetail: View {
                 }){
                     Text("Add to Cart")
                 }.alert(isPresented: $showingAlert) {
-                    Alert(title: Text("Added to cart"), message: Text("Added " + product.name + "to cart"), dismissButton: .default(Text("Got it!")))
+                    Alert(title: Text("Added to cart"), message: Text("Added " + product.name + " to cart"), dismissButton: .default(Text("Got it!")))
                 }
             }.padding([.leading, .trailing, .top])
             HStack {
                 VStack(alignment: .leading, spacing: 10){
                     Text("Item Description").font(.system(size: 20)).fontWeight(.bold)
-                    Text("Description can be very long and very huge but I have no idea why it is moving so stupidly")
+                    Text("Description can be very long and very huge but I have no idea why it is moving.")
                 }
             }.padding()
             }.frame(maxHeight: .infinity, alignment: .topLeading)

@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct HomeView: View {
     let categories = Category.getCategories()
@@ -20,7 +21,20 @@ struct HomeView: View {
                     }.buttonStyle(PlainButtonStyle())
                 }
             }
-        })
+        }).navigationBarItems(trailing:
+        Button(action: {
+            do {
+                try Auth.auth().signOut()
+                print("Logout")
+                Session.clearSession()
+                ContentView()
+            } catch let signOutError as NSError {
+              print ("Error signing out: %@", signOutError)
+            }
+            
+        }){
+             Text("Logout").foregroundColor(.white)
+        }.frame(width: 80, height: 30).background(Color.black).cornerRadius(20).padding())
     }
 }
 

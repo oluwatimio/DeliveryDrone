@@ -7,29 +7,55 @@
 //
 
 import XCTest
-
+@testable import Delivery_Drone_Swift_UI
 class Delivery_Drone_Swift_UIUITests: XCTestCase {
+    var app: XCUIApplication!
 
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
+        super.setUp()
         continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        app = XCUIApplication()
+        app.launchArguments.append("--uitesting")
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
+    
+    
+    func testSignUpButtonDefault(){
         app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssert(app.staticTexts["Create an Account"].exists)
+        XCTAssertFalse(app.staticTexts["Login to Account"].exists)
+    }
+    
+    func testNavigationToLogin(){
+        app.launch()
+        app.buttons["Login"].tap()
+        XCTAssert(app.staticTexts["Login to Account"].exists)
+        XCTAssertFalse(app.staticTexts["Create an Account"].exists)
+    }
+    
+    func testCreationOfAccount() {
+        app.launch()
+        let fullName = app.textFields["Full Name"]
+        let email = app.textFields["Email"]
+        let password = app.secureTextFields["Password"]
+        let cPassword = app.secureTextFields["Confirm Password"]
+        fullName.tap()
+        fullName.typeText("Test User")
+        email.tap()
+        email.typeText("testuser@ddrone.com")
+        password.tap()
+        password.typeText("testp")
+        app.keyboards.buttons["return"].tap()
+        cPassword.tap()
+        cPassword.typeText("testp")
+        app.keyboards.buttons["return"].tap()
+        app.buttons["DONE"].tap()
+        
+//        assert(app.navigationBars.staticTexts["Categories"].exists)
+        
     }
 
     func testLaunchPerformance() {

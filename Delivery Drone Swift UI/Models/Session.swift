@@ -35,4 +35,8 @@ class Session {
         
         return session!
     }
+    
+    static func clearSession(){
+        session = nil
+    }
 }

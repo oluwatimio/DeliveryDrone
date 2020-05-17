@@ -20,12 +20,12 @@
         }
       },
       {
-        "package": "swiftui-extensions",
+        "package": "Grid",
         "repositoryURL": "https://github.com/swift-extensions/swiftui-extensions",
         "state": {
           "branch": null,
-          "revision": "9eb16bf15aef8b2719c56a7530d61e896f351a94",
-          "version": "0.9.1"
+          "revision": "0179cd715f9d717022eb71ce488bc218bb0e39a8",
+          "version": "0.9.3"
         }
       },
       {

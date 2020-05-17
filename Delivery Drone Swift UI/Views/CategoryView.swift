@@ -14,7 +14,7 @@ struct CategoryView: View {
     var categoryName: String;
     @State var productsForCategory: [Product] = []
     @State private var show_modal: Bool = false
-    @State var currentProductClicked: Product = nil;
+    @State var currentProductClicked: Product? = nil;
     var body: some View {
         VStack {
             Grid(self.productsForCategory) { product in
@@ -48,8 +48,8 @@ struct CategoryView: View {
     }
 }
 
-struct CategoryView_Previews: PreviewProvider {
-    static var previews: some View {
-        CategoryView(categoryName: "MENs Accessories")
-    }
-}
+//struct CategoryView_Previews: PreviewProvider {
+//    static var previews: some View {
+////        CategoryView(categoryName: "MENs Accessories", currentProductClicked: <#Product#>)
+//    }
+//}

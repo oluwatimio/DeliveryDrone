@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		26115DDB23CFAF08001E3402 /* ProductOrderPending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26115DDA23CFAF07001E3402 /* ProductOrderPending.swift */; };
-		2638ED7123C7C50800E3E10E /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 2638ED7023C7C50800E3E10E /* URLImage */; };
-		2638ED7623C7E7E900E3E10E /* GridStack in Frameworks */ = {isa = PBXBuildFile; productRef = 2638ED7523C7E7E900E3E10E /* GridStack */; };
+		2638ED7123C7C50800E3E10E /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 2638ED7023C7C50800E3E10E /* SwiftPackageProductDependency */; };
+		2638ED7623C7E7E900E3E10E /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 2638ED7523C7E7E900E3E10E /* SwiftPackageProductDependency */; };
 		26DA9AF823DABA13002E1618 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DA9AF723DABA13002E1618 /* CartItem.swift */; };
 		26DFB67F23C04A6B0020DF12 /* CartProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB67E23C04A6B0020DF12 /* CartProduct.swift */; };
 		26DFB68223C068F40020DF12 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB68123C068F40020DF12 /* CategoryView.swift */; };
 		26DFB68423C069150020DF12 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB68323C069150020DF12 /* ProductCard.swift */; };
 		26DFB68923C0F7F30020DF12 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB68823C0F7F30020DF12 /* Product.swift */; };
-		26DFB68F23C114090020DF12 /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 26DFB68E23C114090020DF12 /* QGrid */; };
+		26DFB68F23C114090020DF12 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 26DFB68E23C114090020DF12 /* SwiftPackageProductDependency */; };
 		26DFB69123C130AF0020DF12 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB69023C130AF0020DF12 /* Category.swift */; };
-		26DFB69423C140EA0020DF12 /* Grid in Frameworks */ = {isa = PBXBuildFile; productRef = 26DFB69323C140EA0020DF12 /* Grid */; };
+		26DFB69423C140EA0020DF12 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 26DFB69323C140EA0020DF12 /* SwiftPackageProductDependency */; };
 		26DFB69823C1520D0020DF12 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB69723C1520C0020DF12 /* HostingController.swift */; };
 		26DFB69A23C1534B0020DF12 /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB69923C1534B0020DF12 /* NavigationConfigurator.swift */; };
 		26DFB69C23C175EC0020DF12 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DFB69B23C175EC0020DF12 /* AuthView.swift */; };
@@ -39,9 +39,9 @@
 		26E38AE323BFF3FC00756272 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38AE223BFF3FC00756272 /* ProductDetail.swift */; };
 		26E38AE523BFFD6400756272 /* CardFullImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E38AE423BFFD6400756272 /* CardFullImage.swift */; };
 		26E644BB23C54815000ADA2B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26E644BA23C54815000ADA2B /* GoogleService-Info.plist */; };
-		2C598F49FF40CC8FD1616115 /* Pods_Delivery_Drone_Swift_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5605D324DD7A87FA193374 /* Pods_Delivery_Drone_Swift_UITests.framework */; };
-		414E71BBDCDDD302712258DA /* Pods_Delivery_Drone_Swift_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB267B0EEC920337A6F01FA /* Pods_Delivery_Drone_Swift_UI.framework */; };
-		D640B4DB3D9613B830F8AEF3 /* Pods_Delivery_Drone_Swift_UIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A0444CC52BFA84BFBAC3559 /* Pods_Delivery_Drone_Swift_UIUITests.framework */; };
+		5598A48BFAE998C71071A9C5 /* Pods_Delivery_Drone_Swift_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27EE2C90372CD837ADCE859 /* Pods_Delivery_Drone_Swift_UITests.framework */; };
+		9B8D012FAD682C5BB73C72D1 /* Pods_Delivery_Drone_Swift_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ADC424CB8E63070E22DB9A /* Pods_Delivery_Drone_Swift_UI.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E2CC15595BA600CB6421C8FA /* Pods_Delivery_Drone_Swift_UIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EAD587B85310392552F487C /* Pods_Delivery_Drone_Swift_UIUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E89D139C8029868BF819623 /* Pods-Delivery Drone Swift UIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UIUITests/Pods-Delivery Drone Swift UIUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1A5605D324DD7A87FA193374 /* Pods_Delivery_Drone_Swift_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delivery_Drone_Swift_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20ADC424CB8E63070E22DB9A /* Pods_Delivery_Drone_Swift_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delivery_Drone_Swift_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26115DDA23CFAF07001E3402 /* ProductOrderPending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOrderPending.swift; sourceTree = "<group>"; };
 		26DA9AF723DABA13002E1618 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
 		26DFB67E23C04A6B0020DF12 /* CartProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartProduct.swift; sourceTree = "<group>"; };
@@ -98,13 +97,14 @@
 		26E38AE223BFF3FC00756272 /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
 		26E38AE423BFFD6400756272 /* CardFullImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFullImage.swift; sourceTree = "<group>"; };
 		26E644BA23C54815000ADA2B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2A0444CC52BFA84BFBAC3559 /* Pods_Delivery_Drone_Swift_UIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delivery_Drone_Swift_UIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38EC1C35EB61C22E81EE2A0F /* Pods-Delivery Drone Swift UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UI.release.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UI/Pods-Delivery Drone Swift UI.release.xcconfig"; sourceTree = "<group>"; };
-		615DF9E9D138FB8C422464C7 /* Pods-Delivery Drone Swift UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UITests.debug.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UITests/Pods-Delivery Drone Swift UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7043517C51C4E41FE2F0B673 /* Pods-Delivery Drone Swift UIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UIUITests.release.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UIUITests/Pods-Delivery Drone Swift UIUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9996B582B6AE95C97FF6F0EC /* Pods-Delivery Drone Swift UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UI.debug.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UI/Pods-Delivery Drone Swift UI.debug.xcconfig"; sourceTree = "<group>"; };
-		E0560B41A3E3817F4C9EAF9C /* Pods-Delivery Drone Swift UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UITests.release.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UITests/Pods-Delivery Drone Swift UITests.release.xcconfig"; sourceTree = "<group>"; };
-		EAB267B0EEC920337A6F01FA /* Pods_Delivery_Drone_Swift_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delivery_Drone_Swift_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAD587B85310392552F487C /* Pods_Delivery_Drone_Swift_UIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delivery_Drone_Swift_UIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		677547359D835A00BDF9B7A6 /* Pods-Delivery Drone Swift UIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UIUITests.release.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UIUITests/Pods-Delivery Drone Swift UIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5A483D2EB0AC5EE1154886E /* Pods-Delivery Drone Swift UIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UIUITests/Pods-Delivery Drone Swift UIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D27EE2C90372CD837ADCE859 /* Pods_Delivery_Drone_Swift_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delivery_Drone_Swift_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E627E122C4E7B300DFBDD95B /* Pods-Delivery Drone Swift UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UI.debug.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UI/Pods-Delivery Drone Swift UI.debug.xcconfig"; sourceTree = "<group>"; };
+		EE5E9D26B9E60193EFC96DFE /* Pods-Delivery Drone Swift UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UITests.release.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UITests/Pods-Delivery Drone Swift UITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFC69232D99426E2A58B3774 /* Pods-Delivery Drone Swift UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UITests.debug.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UITests/Pods-Delivery Drone Swift UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8931AC926593E0F11CD3F3B /* Pods-Delivery Drone Swift UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delivery Drone Swift UI.release.xcconfig"; path = "Target Support Files/Pods-Delivery Drone Swift UI/Pods-Delivery Drone Swift UI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26DFB69423C140EA0020DF12 /* Grid in Frameworks */,
-				26DFB68F23C114090020DF12 /* QGrid in Frameworks */,
-				2638ED7123C7C50800E3E10E /* URLImage in Frameworks */,
-				414E71BBDCDDD302712258DA /* Pods_Delivery_Drone_Swift_UI.framework in Frameworks */,
-				2638ED7623C7E7E900E3E10E /* GridStack in Frameworks */,
+				26DFB69423C140EA0020DF12 /* BuildFile in Frameworks */,
+				26DFB68F23C114090020DF12 /* BuildFile in Frameworks */,
+				2638ED7123C7C50800E3E10E /* BuildFile in Frameworks */,
+				2638ED7623C7E7E900E3E10E /* BuildFile in Frameworks */,
+				9B8D012FAD682C5BB73C72D1 /* Pods_Delivery_Drone_Swift_UI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C598F49FF40CC8FD1616115 /* Pods_Delivery_Drone_Swift_UITests.framework in Frameworks */,
+				5598A48BFAE998C71071A9C5 /* Pods_Delivery_Drone_Swift_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D640B4DB3D9613B830F8AEF3 /* Pods_Delivery_Drone_Swift_UIUITests.framework in Frameworks */,
+				E2CC15595BA600CB6421C8FA /* Pods_Delivery_Drone_Swift_UIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,12 +256,12 @@
 		6F7B5EB8B3AB886F981C1A3E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9996B582B6AE95C97FF6F0EC /* Pods-Delivery Drone Swift UI.debug.xcconfig */,
-				38EC1C35EB61C22E81EE2A0F /* Pods-Delivery Drone Swift UI.release.xcconfig */,
-				615DF9E9D138FB8C422464C7 /* Pods-Delivery Drone Swift UITests.debug.xcconfig */,
-				E0560B41A3E3817F4C9EAF9C /* Pods-Delivery Drone Swift UITests.release.xcconfig */,
-				0E89D139C8029868BF819623 /* Pods-Delivery Drone Swift UIUITests.debug.xcconfig */,
-				7043517C51C4E41FE2F0B673 /* Pods-Delivery Drone Swift UIUITests.release.xcconfig */,
+				E627E122C4E7B300DFBDD95B /* Pods-Delivery Drone Swift UI.debug.xcconfig */,
+				F8931AC926593E0F11CD3F3B /* Pods-Delivery Drone Swift UI.release.xcconfig */,
+				EFC69232D99426E2A58B3774 /* Pods-Delivery Drone Swift UITests.debug.xcconfig */,
+				EE5E9D26B9E60193EFC96DFE /* Pods-Delivery Drone Swift UITests.release.xcconfig */,
+				C5A483D2EB0AC5EE1154886E /* Pods-Delivery Drone Swift UIUITests.debug.xcconfig */,
+				677547359D835A00BDF9B7A6 /* Pods-Delivery Drone Swift UIUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -269,9 +269,9 @@
 		92B9D3A44544BC3C82E19E4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EAB267B0EEC920337A6F01FA /* Pods_Delivery_Drone_Swift_UI.framework */,
-				1A5605D324DD7A87FA193374 /* Pods_Delivery_Drone_Swift_UITests.framework */,
-				2A0444CC52BFA84BFBAC3559 /* Pods_Delivery_Drone_Swift_UIUITests.framework */,
+				20ADC424CB8E63070E22DB9A /* Pods_Delivery_Drone_Swift_UI.framework */,
+				D27EE2C90372CD837ADCE859 /* Pods_Delivery_Drone_Swift_UITests.framework */,
+				4EAD587B85310392552F487C /* Pods_Delivery_Drone_Swift_UIUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -283,11 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26E38AD223BFCECC00756272 /* Build configuration list for PBXNativeTarget "Delivery Drone Swift UI" */;
 			buildPhases = (
-				07985A9F4BA66E7F1EECFC0C /* [CP] Check Pods Manifest.lock */,
+				3E75FB7E84EE19C1D0957DC5 /* [CP] Check Pods Manifest.lock */,
 				26E38AA423BFCECA00756272 /* Sources */,
 				26E38AA523BFCECA00756272 /* Frameworks */,
 				26E38AA623BFCECA00756272 /* Resources */,
-				F024F7D5A78E770696A254F3 /* [CP] Embed Pods Frameworks */,
+				9BBF3F32E7AD5212B8F48DFD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,10 +295,10 @@
 			);
 			name = "Delivery Drone Swift UI";
 			packageProductDependencies = (
-				26DFB68E23C114090020DF12 /* QGrid */,
-				26DFB69323C140EA0020DF12 /* Grid */,
-				2638ED7023C7C50800E3E10E /* URLImage */,
-				2638ED7523C7E7E900E3E10E /* GridStack */,
+				26DFB68E23C114090020DF12 /* SwiftPackageProductDependency */,
+				26DFB69323C140EA0020DF12 /* SwiftPackageProductDependency */,
+				2638ED7023C7C50800E3E10E /* SwiftPackageProductDependency */,
+				2638ED7523C7E7E900E3E10E /* SwiftPackageProductDependency */,
 			);
 			productName = "Delivery Drone Swift UI";
 			productReference = 26E38AA823BFCECA00756272 /* Delivery Drone Swift UI.app */;
@@ -308,10 +308,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26E38AD523BFCECC00756272 /* Build configuration list for PBXNativeTarget "Delivery Drone Swift UITests" */;
 			buildPhases = (
-				217B9BEFEAE29A7FA7062670 /* [CP] Check Pods Manifest.lock */,
+				5F414BC62E5172E6668DA3CD /* [CP] Check Pods Manifest.lock */,
 				26E38ABA23BFCECC00756272 /* Sources */,
 				26E38ABB23BFCECC00756272 /* Frameworks */,
 				26E38ABC23BFCECC00756272 /* Resources */,
+				B8C45EDE31F1A8DAFEBDE3B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -327,10 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26E38AD823BFCECC00756272 /* Build configuration list for PBXNativeTarget "Delivery Drone Swift UIUITests" */;
 			buildPhases = (
-				112B2BD7DFE1A7B1631245F8 /* [CP] Check Pods Manifest.lock */,
+				9B13AF766A4FAF55D0BE2103 /* [CP] Check Pods Manifest.lock */,
 				26E38AC523BFCECC00756272 /* Sources */,
 				26E38AC623BFCECC00756272 /* Frameworks */,
 				26E38AC723BFCECC00756272 /* Resources */,
+				A431EDE56E7705AAFA9552C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -375,10 +377,10 @@
 			);
 			mainGroup = 26E38A9F23BFCECA00756272;
 			packageReferences = (
-				26DFB68D23C114090020DF12 /* XCRemoteSwiftPackageReference "QGrid" */,
-				26DFB69223C140EA0020DF12 /* XCRemoteSwiftPackageReference "swiftui-extensions" */,
-				2638ED6F23C7C50800E3E10E /* XCRemoteSwiftPackageReference "url-image" */,
-				2638ED7423C7E7E900E3E10E /* XCRemoteSwiftPackageReference "GridStack" */,
+				26DFB68D23C114090020DF12 /* RemoteSwiftPackageReference */,
+				26DFB69223C140EA0020DF12 /* RemoteSwiftPackageReference */,
+				2638ED6F23C7C50800E3E10E /* RemoteSwiftPackageReference */,
+				2638ED7423C7E7E900E3E10E /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 26E38AA923BFCECA00756272 /* Products */;
 			projectDirPath = "";
@@ -420,7 +422,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07985A9F4BA66E7F1EECFC0C /* [CP] Check Pods Manifest.lock */ = {
+		3E75FB7E84EE19C1D0957DC5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -442,29 +444,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		112B2BD7DFE1A7B1631245F8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Delivery Drone Swift UIUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		217B9BEFEAE29A7FA7062670 /* [CP] Check Pods Manifest.lock */ = {
+		5F414BC62E5172E6668DA3CD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -486,7 +466,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F024F7D5A78E770696A254F3 /* [CP] Embed Pods Frameworks */ = {
+		9B13AF766A4FAF55D0BE2103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delivery Drone Swift UIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BBF3F32E7AD5212B8F48DFD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -501,6 +503,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delivery Drone Swift UI/Pods-Delivery Drone Swift UI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A431EDE56E7705AAFA9552C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delivery Drone Swift UIUITests/Pods-Delivery Drone Swift UIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delivery Drone Swift UIUITests/Pods-Delivery Drone Swift UIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delivery Drone Swift UIUITests/Pods-Delivery Drone Swift UIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8C45EDE31F1A8DAFEBDE3B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delivery Drone Swift UITests/Pods-Delivery Drone Swift UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Delivery Drone Swift UITests/Pods-Delivery Drone Swift UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Delivery Drone Swift UITests/Pods-Delivery Drone Swift UITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -694,13 +730,57 @@
 		};
 		26E38AD323BFCECC00756272 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9996B582B6AE95C97FF6F0EC /* Pods-Delivery Drone Swift UI.debug.xcconfig */;
+			baseConfigurationReference = E627E122C4E7B300DFBDD95B /* Pods-Delivery Drone Swift UI.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Delivery Drone Swift UI/Preview Content\"";
 				DEVELOPMENT_TEAM = 39VF3HYJT6;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Promises\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Promises/Promise.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuthInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+				);
 				INFOPLIST_FILE = "Delivery Drone Swift UI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -715,13 +795,57 @@
 		};
 		26E38AD423BFCECC00756272 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38EC1C35EB61C22E81EE2A0F /* Pods-Delivery Drone Swift UI.release.xcconfig */;
+			baseConfigurationReference = F8931AC926593E0F11CD3F3B /* Pods-Delivery Drone Swift UI.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Delivery Drone Swift UI/Preview Content\"";
 				DEVELOPMENT_TEAM = 39VF3HYJT6;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Promises\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport/GoogleDataTransportCCTSupport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Promises/Promise.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuthInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+				);
 				INFOPLIST_FILE = "Delivery Drone Swift UI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -736,7 +860,7 @@
 		};
 		26E38AD623BFCECC00756272 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 615DF9E9D138FB8C422464C7 /* Pods-Delivery Drone Swift UITests.debug.xcconfig */;
+			baseConfigurationReference = EFC69232D99426E2A58B3774 /* Pods-Delivery Drone Swift UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -759,7 +883,7 @@
 		};
 		26E38AD723BFCECC00756272 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0560B41A3E3817F4C9EAF9C /* Pods-Delivery Drone Swift UITests.release.xcconfig */;
+			baseConfigurationReference = EE5E9D26B9E60193EFC96DFE /* Pods-Delivery Drone Swift UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -782,7 +906,7 @@
 		};
 		26E38AD923BFCECC00756272 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E89D139C8029868BF819623 /* Pods-Delivery Drone Swift UIUITests.debug.xcconfig */;
+			baseConfigurationReference = C5A483D2EB0AC5EE1154886E /* Pods-Delivery Drone Swift UIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -803,7 +927,7 @@
 		};
 		26E38ADA23BFCECC00756272 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7043517C51C4E41FE2F0B673 /* Pods-Delivery Drone Swift UIUITests.release.xcconfig */;
+			baseConfigurationReference = 677547359D835A00BDF9B7A6 /* Pods-Delivery Drone Swift UIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -864,7 +988,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2638ED6F23C7C50800E3E10E /* XCRemoteSwiftPackageReference "url-image" */ = {
+		2638ED6F23C7C50800E3E10E /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
 			requirement = {
@@ -872,7 +996,7 @@
 				minimumVersion = 0.9.9;
 			};
 		};
-		2638ED7423C7E7E900E3E10E /* XCRemoteSwiftPackageReference "GridStack" */ = {
+		2638ED7423C7E7E900E3E10E /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pietropizzi/GridStack";
 			requirement = {
@@ -880,7 +1004,7 @@
 				minimumVersion = 0.3.0;
 			};
 		};
-		26DFB68D23C114090020DF12 /* XCRemoteSwiftPackageReference "QGrid" */ = {
+		26DFB68D23C114090020DF12 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Q-Mobile/QGrid";
 			requirement = {
@@ -888,7 +1012,7 @@
 				minimumVersion = 0.1.3;
 			};
 		};
-		26DFB69223C140EA0020DF12 /* XCRemoteSwiftPackageReference "swiftui-extensions" */ = {
+		26DFB69223C140EA0020DF12 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/swift-extensions/swiftui-extensions";
 			requirement = {
@@ -899,24 +1023,24 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2638ED7023C7C50800E3E10E /* URLImage */ = {
+		2638ED7023C7C50800E3E10E /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2638ED6F23C7C50800E3E10E /* XCRemoteSwiftPackageReference "url-image" */;
+			package = 2638ED6F23C7C50800E3E10E /* RemoteSwiftPackageReference */;
 			productName = URLImage;
 		};
-		2638ED7523C7E7E900E3E10E /* GridStack */ = {
+		2638ED7523C7E7E900E3E10E /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2638ED7423C7E7E900E3E10E /* XCRemoteSwiftPackageReference "GridStack" */;
+			package = 2638ED7423C7E7E900E3E10E /* RemoteSwiftPackageReference */;
 			productName = GridStack;
 		};
-		26DFB68E23C114090020DF12 /* QGrid */ = {
+		26DFB68E23C114090020DF12 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 26DFB68D23C114090020DF12 /* XCRemoteSwiftPackageReference "QGrid" */;
+			package = 26DFB68D23C114090020DF12 /* RemoteSwiftPackageReference */;
 			productName = QGrid;
 		};
-		26DFB69323C140EA0020DF12 /* Grid */ = {
+		26DFB69323C140EA0020DF12 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 26DFB69223C140EA0020DF12 /* XCRemoteSwiftPackageReference "swiftui-extensions" */;
+			package = 26DFB69223C140EA0020DF12 /* RemoteSwiftPackageReference */;
 			productName = Grid;
 		};
 /* End XCSwiftPackageProductDependency section */

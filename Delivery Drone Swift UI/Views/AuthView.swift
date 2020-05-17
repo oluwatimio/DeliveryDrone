@@ -83,7 +83,7 @@ struct AuthView: View {
 }
 
 struct AuthView_Previews: PreviewProvider {
-    @State static var loggedInSession: Session = Session.instance();
+    @State static var loggedInSession: Session? = Session.instance();
     static var previews: some View {
         AuthView(loggedInSession: $loggedInSession)
     }
